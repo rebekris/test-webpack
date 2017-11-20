@@ -1,4 +1,17 @@
-window.sr = ScrollReveal({ 
+require('../css/style.scss');
+require('../js/slick/slick-theme.css');
+require('../js/metismenu/metisMenu.min.css');
+/*<link rel="stylesheet" href="js/metismenu/metisMenu.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/mm-horizontal.css">
+<link rel="stylesheet" href="js/slick/slick.css">
+<link rel="stylesheet" href="js/slick/slick-theme.css">*/
+
+import $ from "jquery";
+import "slick-carousel";
+import ScrollReveal from "scrollreveal";
+
+window.sr = ScrollReveal({
 	duration: 2000,
 	reset: true,
 	mobile: true
@@ -16,7 +29,7 @@ sr.reveal('.footer');
 $(document).ready(function() {
     $('.single-item').slick({
         autoplay:true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 200,
         dots: true,
         infinite: true,
         arrows:false,
@@ -58,55 +71,9 @@ $(document).ready(function() {
         }]*/
     });
 });
-  
+
 /*
 //JS
 $("#menu").metisMenu();
 //scroll reveal
 */
-
-$('.info1').scotchPanel({
-       // clickSelector: '.toggle-panels',
-       hoverSelector:'.banner-tiny1',
-       containerSelector: '.banner-tiny', // Selects the nearest matching container
-       direction: 'right',
-       duration: 300,
-       transition: 'ease-in-out',
-       enableEscapeKey: true
-});
-$('.info2').scotchPanel({
-       // clickSelector: '.toggle-panels',
-       hoverSelector:'.banner-tiny2',
-       containerSelector: '.banner-tiny', // Selects the nearest matching container
-       direction: 'right',
-       duration: 300,
-       transition: 'ease-in-out',
-       enableEscapeKey: true
-});
-$('.info3').scotchPanel({
-       // clickSelector: '.toggle-panels',
-       hoverSelector:'.banner-tiny3',
-       containerSelector: '.banner-tiny', // Selects the nearest matching container
-       direction: 'right',
-       duration: 300,
-       transition: 'ease-in-out',
-       enableEscapeKey: true
-});
-$('.info4').scotchPanel({
-       // clickSelector: '.toggle-panels',
-       hoverSelector:'.banner-tiny4',
-       containerSelector: '.banner-tiny', // Selects the nearest matching container
-       direction: 'right',
-       duration: 300,
-       transition: 'ease-in-out',
-       enableEscapeKey: true
-});
-$('.info5').scotchPanel({
-       // clickSelector: '.toggle-panels',
-       hoverSelector:'.banner-tiny5',
-       containerSelector: '.banner-tiny', // Selects the nearest matching container
-       direction: 'right',
-       duration: 300,
-       transition: 'ease-in-out',
-       enableEscapeKey: true
-}); 

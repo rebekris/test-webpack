@@ -1,0 +1,9 @@
+{
+  "dist/bundle.css": "http://localhost:8080/dist/bundle.css",
+  "dist/bundle.js": "http://localhost:8080/dist/bundle.js",
+  "dist/fonts/slick.eot": "http://localhost:8080/dist/fonts/slick.ced611da.eot",
+  "dist/fonts/slick.ttf": "http://localhost:8080/dist/fonts/slick.d41f55a7.ttf",
+  "dist/fonts/slick.woff": "http://localhost:8080/dist/fonts/slick.b7c9e1e4.woff",
+  "dist/images/ajax-loader.gif": "http://localhost:8080/dist/images/ajax-loader.4cf2e484.gif",
+  "dist/images/slick.svg": "http://localhost:8080/dist/images/slick.f97e3bbf.svg"
+}
